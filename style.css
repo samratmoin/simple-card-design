@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+  transition: all 1s ease-in-out;
+}
+
+.card-image {
+  height: 150px;
+  margin-bottom: 15px;
+  border-radius: 15px 15px 0 0;
+}
+
+.img-1 {
+  background: url(./images/BF5A8912.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-2 {
+  background: url(./images/moin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-3 {
+  background: url(./images/BF5A8912.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card p {
+  padding: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+.card:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
